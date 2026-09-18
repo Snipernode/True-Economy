@@ -1,0 +1,149 @@
+# True Economy Configuration
+
+database:
+  # yaml | sqlite | mysql
+  type: yaml
+  dir: data
+  sqlite:
+    # file name (relative to the plugin data folder)
+    file: economy.db
+  mysql:
+    host: localhost
+    port: 3306
+    database: economy
+    username: root
+    password: ""
+    # seconds between pool validation / table refresh
+    pool-size: 4
+
+logging:
+  # Write all transactions (pay, tax, auction, shop, bank, admin) to a log file.
+  enabled: true
+  file: transactions.log
+  # keep logs formatted as: [timestamp] TYPE from -> to amount (balance)
+
+currency:
+  symbol: "$"
+  decimals: 2
+  starting-balance: 100.0
+  # cap applied to Vault / admin balance operations (0 = unlimited)
+  max-balance: 1000000000.0
+
+# Dynamic market supply/demand pricing
+market:
+  enabled: true
+  # How often (seconds) prices are recalculated
+  tick-interval: 300
+  # Volume multiplier for price adjustment. Larger = more volatile.
+  volatility: 0.03
+  # Items are loaded from market/items.yml and defined by administrators
+  items-file: market/items.yml
+
+auction:
+  enabled: true
+  default-duration-seconds: 300
+  max-duration-seconds: 86400
+  min-increment-percent: 0.05
+  # Chance that an AI competitor enters a bid (0.0 - 1.0)
+  ai-bidder-chance: 0.15
+  ai-bidder-max-budget-multiplier: 1.5
+  buy-it-now-enabled: true
+  listing-fee: 5.0
+  sales-tax-percent: 0.02
+
+banking:
+  enabled: true
+  # Annual equivalent interest rate, applied per interest cycle
+  interest-rate-per-cycle: 0.001
+  interest-cycle-seconds: 600
+  max-account-balance: 1000000.0
+  loans:
+    enabled: true
+    default-interest-percent: 0.05
+    max-loan-amount: 10000.0
+    repayment-period-seconds: 604800
+    default-min-credit-score: 300
+    # Credit penalty for defaulting on a loan
+    default-penalty: 100
+    credit-repair-per-repayment: 5
+
+npc:
+  enabled: true
+  # Base profit margin for NPC merchants (0.0 - 1.0)
+  base-margin: 0.3
+  margin-sensitivity: 0.5
+
+shops:
+  enabled: true
+  max-shops-per-player: 10
+  max-employees-per-shop: 5
+  default-wage: 50.0
+  # Chest menu title shown when a shop is opened.
+  menu-title: "&2&lTrue Economy Shop"
+  # Items server owners may NOT list/sell in shops. Lowercase material names.
+  # Hooked to the "unobtainables" mechanic: these never appear in the shop menu.
+  unobtainable:
+    - command_block
+    - barrier
+    - bedrock
+    - end_portal_frame
+    - dragon_egg
+    - structure_block
+    - jigsaw
+    - debug_stick
+    - knowledge_book
+    - barrier
+  # Starting stock count each shop is seeded with for a given item.
+  # Only items listed here are offered in the shop menu.
+  starting-stock:
+    DIAMOND: 16
+    IRON_INGOT: 64
+    GOLD_INGOT: 32
+    COAL: 128
+    WHEAT: 64
+    BREAD: 64
+    EMERALD: 16
+    NETHERITE_INGOT: 4
+    END_STONE: 32
+    SHULKER_SHELL: 8
+  # Sections gate shop availability behind in-world discovery.
+  # A player must have STEPPED ON every block in required-blocks to see items.
+  sections:
+    BASIC:
+      display: "Common Goods"
+      required-blocks: []
+      items: [WHEAT, BREAD, COAL]
+    ORES:
+      display: "Ores & Minerals"
+      # must have walked on bedrock and netherrack
+      required-blocks: [bedrock, netherrack]
+      items: [IRON_INGOT, GOLD_INGOT, DIAMOND, EMERALD]
+    END:
+      display: "End Relics"
+      # must have walked on endstone and end portal frame
+      required-blocks: [end_stone, end_portal_frame]
+      items: [END_STONE, SHULKER_SHELL, NETHERITE_INGOT]
+  # Blacklist substrings; any item whose lowercase name contains one of these
+  # is treated as unobtainable and never shown in the shop.
+  banned-name-parts:
+    - "command"
+    - "debug"
+    - "barrier"
+
+government:
+  enabled: true
+  # Sales/transaction tax (0.0 - 1.0)
+  transaction-tax-percent: 0.05
+  tax-collection-interval-seconds: 3600
+  grants:
+    enabled: true
+    cooldown-days: 7
+
+seasonal:
+  enabled: true
+  # Random economic event every N seconds
+  event-interval-min-seconds: 1800
+  event-interval-max-seconds: 7200
+  crisis-chance: 0.3
+  boom-chance: 0.3
+  rare-loot-chance: 0.15

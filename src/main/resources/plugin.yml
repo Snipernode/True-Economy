@@ -1,0 +1,58 @@
+name: True Economy
+version: 2.0.0
+main: com.economy.plugin.EconomyPlugin
+api-version: ${api.version}
+author: Snipernode
+description: Modular dynamic economy plugin (upgraded with DB, Vault, PlaceholderAPI, GUIs and logging)
+softdepend: [Vault, PlaceholderAPI]
+
+commands:
+  economy:
+    description: Main economy command
+    usage: /economy <balance|pay|top|set|give|take|reset|tax|market|auction|bank|loan|shop|events|link>
+    aliases: [eco, money]
+  market:
+    description: View and trade on the dynamic market
+    usage: /market <list|view <id>|trade <id> <amount> [sell]|gui>
+  auction:
+    description: Auction house commands
+    usage: /auction <create|bid|buy|list|mylist|cancel|claim|gui>
+    aliases: [ah]
+  bank:
+    description: Bank and loan commands
+    usage: /bank <deposit|withdraw|interest|loan|credit>
+  shop:
+    description: Player shop commands
+    usage: /shop <create|list|manage|hire|fire|wage> or /shop for the menu
+  events:
+    description: View seasonal market events
+    usage: /events <status|history>
+
+permissions:
+  economy.use:
+    description: Use basic economy commands
+    default: true
+  economy.admin:
+    description: Admin economy commands
+    default: op
+  economy.market:
+    description: Trade on the dynamic market
+    default: true
+  economy.auction:
+    description: Use auction house
+    default: true
+  economy.bank:
+    description: Use banking services
+    default: true
+  economy.link:
+    description: Link a UUID and XUID identity to merge unlocks, currency and banks
+    default: true
+  economy.shop.create:
+    description: Create player shops
+    default: true
+  economy.shop.admin:
+    description: Admin player shops
+    default: op
+  economy.government.admin:
+    description: Government administration
+    default: op

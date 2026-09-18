@@ -1,0 +1,25 @@
+items:
+  iron:
+    name: Iron Ingot
+    base-price: 20.0
+    elasticity: 1.4
+  diamond:
+    name: Diamond
+    base-price: 150.0
+    elasticity: 1.8
+  wheat:
+    name: Wheat
+    base-price: 5.0
+    elasticity: 1.1
+  emerald:
+    name: Emerald
+    base-price: 80.0
+    elasticity: 1.6
+  netherite:
+    name: Netherite Ingot
+    base-price: 500.0
+    elasticity: 2.0
+  ancient-artifact:
+    name: Ancient Artifact
+    base-price: 1200.0
+    elasticity: 2.5

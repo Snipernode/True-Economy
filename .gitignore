@@ -1,0 +1,16 @@
+# build output
+target/
+
+# original input jars (decompiled starting point)
+/true-economy-*.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
