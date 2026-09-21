@@ -1,0 +1,5 @@
+function trueeconomy:util/ensure
+tellraw @s ["",{"text":"=========== True-Economy ===========","color":"aqua","bold":true}]
+tellraw @s [" ",{"text":"[Balance] ","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function trueeconomy:cmd/balance"}},{"text":"[Pay]","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/function trueeconomy:menu/pay"}}]
+tellraw @s [" ",{"text":"[Market] ","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function trueeconomy:market/list"}},{"text":"[Black Market]","color":"dark_purple","bold":true,"clickEvent":{"action":"run_command","value":"/function trueeconomy:menu/blackmarket"}}]
+tellraw @s [" ",{"text":"[Bank] ","color":"blue","bold":true,"clickEvent":{"action":"run_command","value":"/function trueeconomy:menu/bank"}},{"text":"[Help]","color":"gray","bold":true,"clickEvent":{"action":"run_command","value":"/function trueeconomy:menu/help"}}]

@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": {
+      "min_inclusive": 15,
+      "max_inclusive": 9999
+    },
+    "description": "True-Economy vanilla data pack - supply/demand market, black market, banks, pay (requires 1.20.2+)"
+  }
+}

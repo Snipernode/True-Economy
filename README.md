@@ -84,3 +84,22 @@ Prebuilt JARs for all supported versions are attached to the
 This codebase was reconstructed from the plugin's compiled JARs, then rebuilt and
 extended. Some features referenced by the plugin's marketing (e.g. an active AI-bidder
 loop) are config-only stubs in the current source.
+
+## Loader builds: known blocked versions
+
+The multi-loader builds (`true-economy-fabric-*`, `true-economy-forge-*`,
+`true-economy-neoforge-*`) cover MC 1.16.5 → 26.3. Three NeoForge lines cannot be
+built and are intentionally excluded:
+
+- **NeoForge 1.20.2 / 1.20.3 / 1.20.5** — these predate the NeoForm publication era:
+  their Maven POMs declare no `neoform` dependency, so modern toolchain (moddev)
+  cannot process them. The era-correct NeoGradle 6.x (FG6-style userdev) path also
+  fails because the upstream userdev `config.json` uses an `ats` string (NG6 expects
+  an array) and NeoForge never published the `*_mapped_official_*` artifact these
+  builds require.
+- **NeoForge 26.2 / 26.3** — NeoForm cannot recompile the decompiled sources: they use
+  Java 25 "Flexible Constructor Bodies" (a preview feature) and the recompiler runs
+  without `--enable-preview` (javac `contents()` override error / ECJ `Pb(1103)`).
+- **Forge 1.16.5** — the FG5-era ForgeGradle toolchain is incompatible with modern
+  JDKs and produces an SRG-named compile classpath under official mappings; parked.
+  Scaffolding remains in the build config for future work.
