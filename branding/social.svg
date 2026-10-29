@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>TrueEconomy 2.0 — social card</title>
+  <desc>1200x630 Open Graph card. Verified counts: 65 commodities, 734 shop entries, 68 builds, 26 achievements.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16241d"/>
+      <stop offset="0.52" stop-color="#101b16"/>
+      <stop offset="1" stop-color="#0a110e"/>
+    </linearGradient>
+    <radialGradient id="glowGreen" cx="0.1" cy="0.06" r="0.62">
+      <stop offset="0" stop-color="#3ddc7a" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#3ddc7a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0.92" cy="0.94" r="0.55">
+      <stop offset="0" stop-color="#37c6e8" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#37c6e8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3ddc7a"/>
+      <stop offset="0.55" stop-color="#37c6e8"/>
+      <stop offset="1" stop-color="#ffd75e"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#1f9c4d"/>
+      <stop offset="1" stop-color="#3ddc7a"/>
+    </linearGradient>
+    <linearGradient id="barGold" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#c9a227"/>
+      <stop offset="1" stop-color="#ffd75e"/>
+    </linearGradient>
+    <linearGradient id="barBlue" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#1a7f9e"/>
+      <stop offset="1" stop-color="#37c6e8"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd75e"/>
+      <stop offset="1" stop-color="#3ddc7a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g stroke="#1e2f26" stroke-width="1" opacity="0.45">
+    <path d="M80 0 V630 M280 0 V630 M480 0 V630 M680 0 V630 M880 0 V630 M1080 0 V630 M1200 0 V630"/>
+    <path d="M0 70 H1200 M0 190 H1200 M0 310 H1200 M0 430 H1200 M0 550 H1200"/>
+  </g>
+  <rect width="1200" height="630" fill="url(#glowGreen)"/>
+  <rect width="1200" height="630" fill="url(#glowBlue)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#rule)"/>
+
+  <!-- ============ badge ============ -->
+  <g transform="translate(80,64)">
+    <rect width="80" height="80" rx="19" fill="#14201a" stroke="#2f6b4c" stroke-width="2.5"/>
+    <g transform="translate(12,12) scale(0.109375)">
+      <rect x="104" y="384" width="304" height="9" rx="4.5" fill="#33503f"/>
+      <rect x="126" y="294" width="64" height="90" rx="11" fill="url(#barGreen)"/>
+      <rect x="224" y="181" width="64" height="203" rx="11" fill="url(#barBlue)"/>
+      <rect x="322" y="94" width="64" height="290" rx="11" fill="url(#barGold)"/>
+      <path d="M120 316 L188 262 L256 214 L324 166 L400 116"
+            fill="none" stroke="url(#line)" stroke-width="17"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="400" cy="116" r="21" fill="#3ddc7a" stroke="#12201a" stroke-width="7"/>
+    </g>
+  </g>
+
+  <!-- ============ wordmark ============ -->
+  <text x="80" y="190" font-family="Inter, DejaVu Sans, sans-serif" font-size="15"
+        font-weight="700" letter-spacing="3.4" fill="#3ddc7a">SERVER ECONOMY · SPIGOT / PAPER</text>
+
+  <text x="80" y="278" font-family="Inter, DejaVu Sans, sans-serif" font-size="80"
+        font-weight="800" letter-spacing="-2.4" fill="#eafff2">True<tspan fill="#3ddc7a">Economy</tspan></text>
+
+  <rect x="80" y="300" width="320" height="4" rx="2" fill="url(#rule)"/>
+
+  <text x="80" y="350" font-family="Inter, DejaVu Sans, sans-serif" font-size="23"
+        font-weight="500" fill="#bcd8c7">A living economy, entirely in the GUI.</text>
+  <text x="80" y="384" font-family="Inter, DejaVu Sans, sans-serif" font-size="23"
+        font-weight="500" fill="#bcd8c7">Prices move because players move them.</text>
+
+  <!-- ============ stat row ============ -->
+  <g font-family="Inter, DejaVu Sans, sans-serif">
+    <text x="80" y="454" font-size="32" font-weight="800" fill="#3ddc7a">65</text>
+    <text x="80" y="476" font-size="11" font-weight="700" letter-spacing="1.8" fill="#6f9c82">COMMODITIES</text>
+
+    <text x="200" y="454" font-size="32" font-weight="800" fill="#37c6e8">734</text>
+    <text x="200" y="476" font-size="11" font-weight="700" letter-spacing="1.8" fill="#6f9c82">SHOP ENTRIES</text>
+
+    <text x="340" y="454" font-size="32" font-weight="800" fill="#ffd75e">68</text>
+    <text x="340" y="476" font-size="11" font-weight="700" letter-spacing="1.8" fill="#6f9c82">BUILDS</text>
+
+    <text x="460" y="454" font-size="32" font-weight="800" fill="#b07de8">26</text>
+    <text x="460" y="476" font-size="11" font-weight="700" letter-spacing="1.8" fill="#6f9c82">ACHIEVEMENTS</text>
+  </g>
+
+  <text x="80" y="590" font-family="Inter, DejaVu Sans, sans-serif" font-size="14"
+        font-weight="500" fill="#6f9c82">1.8 → 26.3   ·   Vault   ·   PlaceholderAPI   ·   YAML / SQLite / MySQL</text>
+  <text x="1120" y="590" text-anchor="end" font-family="Inter, DejaVu Sans, sans-serif"
+        font-size="12" font-weight="700" letter-spacing="2.2" fill="#4f6f5d">TRUEECONOMY 2.0</text>
+
+  <!-- ============ market panel ============ -->
+  <g transform="translate(700,90)">
+    <rect width="420" height="450" rx="22" fill="#0d1914" stroke="#26402f" stroke-width="2.5"/>
+    <text x="28" y="44" font-family="Inter, DejaVu Sans, sans-serif" font-size="16"
+          font-weight="700" letter-spacing="2" fill="#cfe8d8">DYNAMIC MARKET</text>
+    <text x="392" y="44" text-anchor="end" font-family="Inter, DejaVu Sans, sans-serif"
+          font-size="13" font-weight="700" letter-spacing="1.5" fill="#ffd75e">65 COMMODITIES</text>
+    <path d="M28 62 H392" stroke="#1e2f26" stroke-width="1.5"/>
+
+    <!-- chart -->
+    <g stroke="#1e2f26" stroke-width="1.5">
+      <path d="M28 120 H392 M28 170 H392 M28 220 H392 M28 270 H392"/>
+    </g>
+    <path d="M28 115 C100 140 160 170 210 195 C260 220 320 250 392 275"
+          fill="none" stroke="#3ddc7a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M28 275 C90 250 150 220 210 195 C270 170 330 135 392 112"
+          fill="none" stroke="#37c6e8" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="210" cy="195" r="12" fill="#ffd75e" opacity="0.22"/>
+    <circle cx="210" cy="195" r="6" fill="#ffd75e" stroke="#0d1914" stroke-width="3"/>
+
+    <text x="36" y="110" font-family="Inter, DejaVu Sans, sans-serif" font-size="12"
+          font-weight="700" letter-spacing="1.4" fill="#3ddc7a">DEMAND</text>
+    <text x="384" y="106" text-anchor="end" font-family="Inter, DejaVu Sans, sans-serif"
+          font-size="12" font-weight="700" letter-spacing="1.4" fill="#37c6e8">SUPPLY</text>
+
+    <!-- panel stats -->
+    <path d="M28 316 H392" stroke="#1e2f26" stroke-width="1.5"/>
+    <text x="28" y="344" font-family="Inter, DejaVu Sans, sans-serif" font-size="13"
+          font-weight="600" fill="#bcd8c7">65 commodities</text>
+    <text x="392" y="344" text-anchor="end" font-family="Inter, DejaVu Sans, sans-serif"
+          font-size="13" font-weight="600" fill="#bcd8c7">8 sectors</text>
+
+    <g font-family="Inter, DejaVu Sans, sans-serif" font-size="13.5" font-weight="500" fill="#bcd8c7">
+      <circle cx="32" cy="378" r="3.5" fill="#3ddc7a"/>
+      <text x="46" y="383">Escrowed auctions</text>
+      <circle cx="224" cy="378" r="3.5" fill="#37c6e8"/>
+      <text x="238" y="383">Credit-scored loans</text>
+
+      <circle cx="32" cy="414" r="3.5" fill="#ffd75e"/>
+      <text x="46" y="419">Player shops</text>
+      <circle cx="224" cy="414" r="3.5" fill="#b07de8"/>
+      <text x="238" y="419">City treasuries</text>
+    </g>
+
+    <text x="210" y="440" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif"
+          font-size="10" font-weight="600" letter-spacing="0.8" fill="#4f6f5d">ILLUSTRATIVE SUPPLY &amp; DEMAND</text>
+  </g>
+</svg>

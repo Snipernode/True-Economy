@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1280"
+   height="720"
+   viewBox="0 0 1280 720"
+   version="1.1"
+   id="svg40"
+   sodipodi:docname="cover.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview40"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0984375"
+     inkscape:cx="640"
+     inkscape:cy="359.60171"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg40" />
+  <!--
+    BuiltByBit cover, 1280x720 (16:9).
+    Same palette and chart motif as the icon so the listing reads as one product.
+
+    Layout is a strict two-column grid with a full-width footer, because the first pass overlapped the
+    wordmark with the badge and ran the feature strip off the right edge:
+      left column   x 80..700
+      chart panel   x 740..1200, y 96..476
+      footer strip  y 512..648
+  -->
+  <defs
+     id="defs11">
+    <linearGradient
+       id="bg"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#16241d"
+         id="stop1" />
+      <stop
+         offset="0.5"
+         stop-color="#101b16"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#0a110e"
+         id="stop3" />
+    </linearGradient>
+    <radialGradient
+       id="glow"
+       cx="0.8"
+       cy="0.24"
+       r="0.6">
+      <stop
+         offset="0"
+         stop-color="#3ddc7a"
+         stop-opacity="0.20"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#3ddc7a"
+         stop-opacity="0"
+         id="stop5" />
+    </radialGradient>
+    <radialGradient
+       id="glow2"
+       cx="0.1"
+       cy="0.9"
+       r="0.5">
+      <stop
+         offset="0"
+         stop-color="#37c6e8"
+         stop-opacity="0.15"
+         id="stop6" />
+      <stop
+         offset="1"
+         stop-color="#37c6e8"
+         stop-opacity="0"
+         id="stop7" />
+    </radialGradient>
+    <linearGradient
+       id="line"
+       x1="0"
+       y1="1"
+       x2="1"
+       y2="0">
+      <stop
+         offset="0"
+         stop-color="#ffd75e"
+         id="stop8" />
+      <stop
+         offset="1"
+         stop-color="#3ddc7a"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="rule"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <stop
+         offset="0"
+         stop-color="#3ddc7a"
+         id="stop10" />
+      <stop
+         offset="1"
+         stop-color="#37c6e8"
+         stop-opacity="0.15"
+         id="stop11" />
+    </linearGradient>
+  </defs>
+  <rect
+     width="1280"
+     height="720"
+     fill="url(#bg)"
+     id="rect11" />
+  <rect
+     width="1280"
+     height="720"
+     fill="url(#glow)"
+     id="rect12" />
+  <rect
+     width="1280"
+     height="720"
+     fill="url(#glow2)"
+     id="rect13" />
+  <g
+     stroke="#1e2f26"
+     stroke-width="1.5"
+     opacity="0.7"
+     id="g14"
+     transform="translate(2.7311522,0.91038407)">
+    <path
+       d="M 0,120 H 1280 M 0,240 H 1280 M 0,360 H 1280 M 0,480 H 1280 M 0,600 h 1280"
+       id="path13" />
+    <path
+       d="M 160,0 V 720 M 480,0 V 720 M 800,0 V 720 M 1120,0 v 720"
+       id="path14" />
+  </g>
+  <!-- ================= badge ================= -->
+  <g
+     transform="translate(80,96)"
+     id="g19">
+    <rect
+       width="104"
+       height="104"
+       rx="24"
+       fill="#182a21"
+       stroke="#2f6b4c"
+       stroke-width="3"
+       id="rect14" />
+    <g
+       transform="translate(11,11) scale(0.16)"
+       id="g18">
+      <g
+         stroke="#2f4a3c"
+         stroke-width="14"
+         opacity="0.45"
+         id="g15">
+        <line
+           x1="104"
+           y1="256"
+           x2="408"
+           y2="256"
+           id="line14" />
+        <line
+           x1="104"
+           y1="332"
+           x2="408"
+           y2="332"
+           id="line15" />
+      </g>
+      <rect
+         x="104"
+         y="384"
+         width="304"
+         height="12"
+         rx="6"
+         fill="#33503f"
+         id="rect15" />
+      <rect
+         x="126"
+         y="294"
+         width="64"
+         height="90"
+         rx="11"
+         fill="#2fbd6a"
+         id="rect16" />
+      <rect
+         x="224"
+         y="188"
+         width="64"
+         height="196"
+         rx="11"
+         fill="#37c6e8"
+         id="rect17" />
+      <rect
+         x="322"
+         y="250"
+         width="64"
+         height="134"
+         rx="11"
+         fill="#ffd75e"
+         id="rect18" />
+      <path
+         d="M120 316 L188 262 L256 214 L324 166 L400 116"
+         fill="none"
+         stroke="#8ee6a8"
+         stroke-width="24"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path18" />
+      <circle
+         cx="400"
+         cy="116"
+         r="26"
+         fill="#3ddc7a"
+         id="circle18" />
+    </g>
+  </g>
+  <!-- ================= wordmark ================= -->
+  <text
+     x="80"
+     y="292"
+     font-family="Inter, DejaVu Sans, sans-serif"
+     font-size="92"
+     font-weight="800"
+     letter-spacing="-2.5"
+     fill="#eafff2"
+     id="text19">TrueEconomy</text>
+  <rect
+     x="82"
+     y="320"
+     width="290"
+     height="6"
+     rx="3"
+     fill="url(#rule)"
+     id="rect19" />
+  <text
+     x="80"
+     y="382"
+     font-family="Inter, DejaVu Sans, sans-serif"
+     font-size="29"
+     font-weight="500"
+     fill="#93c4a4"
+     id="text20">A full server economy,</text>
+  <text
+     x="80"
+     y="422"
+     font-family="Inter, DejaVu Sans, sans-serif"
+     font-size="29"
+     font-weight="500"
+     fill="#93c4a4"
+     id="text21">entirely in the GUI.</text>
+  <g
+     font-family="Inter, DejaVu Sans, sans-serif"
+     font-size="20"
+     font-weight="700"
+     id="g24">
+    <text
+       x="80"
+       y="466"
+       fill="#3ddc7a"
+       letter-spacing="0.4"
+       id="text22">1.8 – 26.3</text>
+    <text
+       x="252"
+       y="466"
+       fill="#ffd75e"
+       letter-spacing="0.4"
+       id="text23">68 BUILDS</text>
+    <text
+       x="392"
+       y="466"
+       fill="#37c6e8"
+       letter-spacing="0.4"
+       id="text24">SQLite · MySQL</text>
+  </g>
+  <!-- ================= chart panel ================= -->
+  <g
+     transform="translate(740,96)"
+     id="g31">
+    <rect
+       width="460"
+       height="380"
+       rx="24"
+       fill="#0d1914"
+       stroke="#26402f"
+       stroke-width="3"
+       id="rect24" />
+    <text
+       x="28"
+       y="50"
+       font-family="Inter, DejaVu Sans, sans-serif"
+       font-size="20"
+       font-weight="700"
+       fill="#cfe8d8"
+       id="text25">MARKET TRENDS</text>
+    <text
+       x="432"
+       y="50"
+       text-anchor="end"
+       font-family="Inter, DejaVu Sans, sans-serif"
+       font-size="19"
+       font-weight="700"
+       fill="#3ddc7a"
+       id="text26">▲ 12.4%</text>
+    <g
+       stroke="#1e2f26"
+       stroke-width="2"
+       id="g29">
+      <line
+         x1="28"
+         y1="110"
+         x2="432"
+         y2="110"
+         id="line26" />
+      <line
+         x1="28"
+         y1="170"
+         x2="432"
+         y2="170"
+         id="line27" />
+      <line
+         x1="28"
+         y1="230"
+         x2="432"
+         y2="230"
+         id="line28" />
+      <line
+         x1="28"
+         y1="290"
+         x2="432"
+         y2="290"
+         id="line29" />
+    </g>
+    <path
+       d="M28 300 L96 268 L164 278 L232 214 L300 234 L366 152 L432 110 L432 300 L28 300 Z"
+       fill="#3ddc7a"
+       opacity="0.10"
+       id="path29" />
+    <path
+       d="M28 300 L96 268 L164 278 L232 214 L300 234 L366 152 L432 110"
+       fill="none"
+       stroke="url(#line)"
+       stroke-width="8"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path30" />
+    <circle
+       cx="432"
+       cy="110"
+       r="12"
+       fill="#3ddc7a"
+       stroke="#0d1914"
+       stroke-width="5"
+       id="circle30" />
+    <rect
+       x="28"
+       y="330"
+       width="404"
+       height="2"
+       fill="#1e2f26"
+       id="rect30" />
+    <text
+       x="28"
+       y="358"
+       font-family="Inter, DejaVu Sans, sans-serif"
+       font-size="18"
+       fill="#8fb8a1"
+       id="text30">65 tradeable commodities</text>
+    <text
+       x="432"
+       y="358"
+       text-anchor="end"
+       font-family="Inter, DejaVu Sans, sans-serif"
+       font-size="18"
+       fill="#8fb8a1"
+       id="text31">8 sectors</text>
+  </g>
+  <!-- ================= footer strip ================= -->
+  <g
+     transform="translate(80,516)"
+     font-family="Inter, DejaVu Sans, sans-serif"
+     id="g40">
+    <rect
+       x="0"
+       y="0"
+       width="1120"
+       height="2"
+       fill="#1e2f26"
+       id="rect31" />
+    <g
+       font-size="19"
+       font-weight="600"
+       id="g39">
+      <rect
+         x="0"
+         y="32"
+         width="9"
+         height="9"
+         rx="3"
+         fill="#3ddc7a"
+         id="rect32" />
+      <text
+         x="21"
+         y="42"
+         fill="#bcd8c7"
+         id="text32">734 shop items</text>
+      <rect
+         x="290"
+         y="32"
+         width="9"
+         height="9"
+         rx="3"
+         fill="#37c6e8"
+         id="rect33" />
+      <text
+         x="311"
+         y="42"
+         fill="#bcd8c7"
+         id="text33">Dynamic market</text>
+      <rect
+         x="530"
+         y="32"
+         width="9"
+         height="9"
+         rx="3"
+         fill="#ffd75e"
+         id="rect34" />
+      <text
+         x="551"
+         y="42"
+         fill="#bcd8c7"
+         id="text34">Auction house</text>
+      <rect
+         x="780"
+         y="32"
+         width="9"
+         height="9"
+         rx="3"
+         fill="#b07de8"
+         id="rect35" />
+      <text
+         x="801"
+         y="42"
+         fill="#bcd8c7"
+         id="text35">Banking &amp; loans</text>
+      <rect
+         x="0"
+         y="76"
+         width="9"
+         height="9"
+         rx="3"
+         fill="#4fe39a"
+         id="rect36" />
+      <text
+         x="21"
+         y="86"
+         fill="#bcd8c7"
+         id="text36">Player shops</text>
+      <rect
+         x="290"
+         y="76"
+         width="9"
+         height="9"
+         rx="3"
+         fill="#e8894a"
+         id="rect37" />
+      <text
+         x="311"
+         y="86"
+         fill="#bcd8c7"
+         id="text37">Government &amp; tax</text>
+      <rect
+         x="530"
+         y="76"
+         width="9"
+         height="9"
+         rx="3"
+         fill="#5ad1e8"
+         id="rect38" />
+      <text
+         x="551"
+         y="86"
+         fill="#bcd8c7"
+         id="text38">26 achievements</text>
+      <rect
+         x="780"
+         y="76"
+         width="9"
+         height="9"
+         rx="3"
+         fill="#7f9c8c"
+         id="rect39" />
+      <text
+         x="801"
+         y="86"
+         fill="#bcd8c7"
+         id="text39">Daily rewards</text>
+    </g>
+    <text
+       x="0"
+       y="128"
+       font-size="18"
+       font-weight="500"
+       fill="#6f9c82"
+       id="text40">
+      Vault · PlaceholderAPI · SQLite · MySQL · 68 prebuilt jars, 1.8 to 26.3
+    </text>
+  </g>
+  <text
+     x="1200"
+     y="686"
+     text-anchor="end"
+     font-family="Inter, DejaVu Sans, sans-serif"
+     font-size="13"
+     font-weight="700"
+     letter-spacing="2.4"
+     fill="#6f9c82"
+     id="text41">BY SNIPERNODE</text>
+</svg>
